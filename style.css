@@ -1,5 +1,5 @@
 /* Mobile - Tablet - Laptop */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1370px) {
 
     #main-container-pro{
         display: flex;
@@ -55,7 +55,7 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1370px) {
     
     #main-container-pro{
         display: flex;
