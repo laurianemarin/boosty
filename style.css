@@ -1,1 +1,37 @@
-/* test commit */
+#main-container-pro{
+    display: flex;
+    justify-content: center;
+    /* background-color: #f2f2f2; */
+    flex-wrap: wrap;
+}
+
+.progression-blog-content{
+    background-color: #ffffff;
+    width: 250px;
+    margin: 20px;
+}
+
+.progression-blog-content h2{
+    font-size: 18px;
+}
+
+.progression-blog-content p{
+    font-size: 12px;
+}
+
+.more-link{
+    text-transform: uppercase;
+    border: 1px solid #ff5f3b;
+    color: #ff5f3b !important;
+    padding: 10px;
+}
+
+.more-link:hover{
+    cursor: pointer;
+    color: white !important;
+    background-color: #ff5f3b;
+}
+
+.more-link i{
+    display: none;
+}
