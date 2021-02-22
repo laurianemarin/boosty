@@ -1,51 +1,110 @@
-#main-container-pro{
-    display: flex;
-    justify-content: center;
-    /* background-color: #f2f2f2; */
-    flex-wrap: wrap;
+/* Mobile - Tablet - Laptop */
+@media screen and (max-width: 1300px) {
+
+    #main-container-pro{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .progression-blog-header{
+        height: 200px;
+        margin: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .progression-blog-article{
+        padding: 17px;
+    }
+    
+    .progression-blog-content{
+        background-color: #ffffff;
+        width: 300px;
+        margin: 20px;
+        box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+        padding: 0;
+    }
+    
+    .progression-blog-content h2{
+        font-size: 18px;
+    }
+    
+    .progression-blog-content p{
+        font-size: 12px;
+    }
+    
+    .more-link{
+        text-transform: uppercase;
+        border: 1px solid #ff5f3b;
+        color: #ff5f3b !important;
+        padding: 10px;
+    }
+    
+    .more-link:hover{
+        cursor: pointer;
+        color: white !important;
+        background-color: #ff5f3b;
+    }
+    
+    .more-link i{
+        display: none;
+    }
+
 }
 
-.progression-blog-header{
-    height: 200px;
-    margin: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.progression-blog-article{
-    padding: 17px;
-}
-
-.progression-blog-content{
-    background-color: #ffffff;
-    width: 300px;
-    margin: 20px;
-    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
-    padding: 0;
-}
-
-.progression-blog-content h2{
-    font-size: 18px;
-}
-
-.progression-blog-content p{
-    font-size: 12px;
-}
-
-.more-link{
-    text-transform: uppercase;
-    border: 1px solid #ff5f3b;
-    color: #ff5f3b !important;
-    padding: 10px;
-}
-
-.more-link:hover{
-    cursor: pointer;
-    color: white !important;
-    background-color: #ff5f3b;
-}
-
-.more-link i{
-    display: none;
+/* Desktop */
+@media screen and (min-width: 1300px) {
+    
+    #main-container-pro{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .progression-blog-header{
+        height: 200px;
+        margin: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .progression-blog-article{
+        padding: 17px;
+    }
+    
+    .progression-blog-content{
+        background-color: #ffffff;
+        width: 400px;
+        margin: 20px;
+        box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+        padding: 0;
+    }
+    
+    .progression-blog-content h2{
+        font-size: 18px;
+    }
+    
+    .progression-blog-content p{
+        font-size: 12px;
+    }
+    
+    .more-link{
+        text-transform: uppercase;
+        border: 1px solid #ff5f3b;
+        color: #ff5f3b !important;
+        padding: 10px;
+    }
+    
+    .more-link:hover{
+        cursor: pointer;
+        color: white !important;
+        background-color: #ff5f3b;
+    }
+    
+    .more-link i{
+        display: none;
+    }
 }
